@@ -8,12 +8,10 @@ const paragraph = document.getElementById('paragraph')
 
 document.body.style.backgroundColor = 'silver'
 
-document.body.style.marginTop = '50px';
-// document.body.style.marginBottom = '50px'
+
 document.body.style.marginLeft = '200px' ;
 document.body.style.marginRight = '200px' ;
 document.body.style.borderRadius = '30px' ;
-// document.body.style.boxShadow = '0 2px 4px' ;
 document.body.style.padding = '30px' ;
 
 
@@ -85,7 +83,7 @@ addFruit('Apple',imagesUrls[3]);
 
 fruitList.style.display = 'flex'
 fruitList.style.gap = '3cm';
-fruitList.style.paddingLeft = '100px'
+// fruitList.style.paddingLeft = '100px'
 
 
 const vegetables = document.querySelectorAll('#vegList li') ;
@@ -131,4 +129,4 @@ addVeges('Broccoli',imagessrc[3]);
 
 vegList.style.display = 'flex'
 vegList.style.gap = '3cm';
-vegList.style.paddingLeft = '100px';
+// vegList.style.paddingLeft = '100px';
