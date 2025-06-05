@@ -130,3 +130,13 @@ addVeges('Broccoli',imagessrc[3]);
 vegList.style.display = 'flex'
 vegList.style.gap = '3cm';
 // vegList.style.paddingLeft = '100px';
+
+const clickButton = document.getElementById('click-button');
+
+clickButton.addEventListener('click', ()=>{
+    clickButton.style.backgroundColor = 'green'
+    clickButton.textContent = 'Clicked!';
+})
+
+clickButton.style.backgroundColor = 'green'
+clickButton.style.fontcolor = 'green'

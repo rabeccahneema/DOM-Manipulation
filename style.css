@@ -24,3 +24,22 @@
    font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
+.button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 60px;
+    /* padding-right: 55px; */
+
+}
+.button button{
+    padding: 15px;
+    width: 10vw;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
